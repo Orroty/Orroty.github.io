@@ -1,0 +1,110 @@
+﻿/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+nav ul li a:hover, .sign_in:hover {
+    color: #ef2a82;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.sign_up:hover {
+    background: #ef2a82;
+    color: #172755;
+    border: 1px solid #ef2a82;
+}
+
+.header_bottom_content button:hover, .card_wrapper button:hover {
+    background: #f8f9ff;
+    border: solid 1px #ef2a82;
+    color: #0f1f4b;
+}
+
+.central_card button:hover {
+    background: #2A407C;
+    color: #FFFFFF;
+}
+
+
+.companies_icons a:hover {
+    fill: rgb(152, 152, 253);
+}
+
+.sign_up_purpose_wrapper form button:hover {
+    background: #ef2a82;
+}
+
+.footer_sosial ul li a:hover {
+    fill: red;
+    background-color: #fff;
+}
+
+.footer_wrapper nav ul li a:hover {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.card:not(:hover) {
+    -webkit-animation: scale-down-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-down-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+}
+
+
+@keyframes scale-down-center {
+    0% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+}
+
+.card:hover {
+    -webkit-animation: scale-up-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-up-center 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+
+    100% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+}
